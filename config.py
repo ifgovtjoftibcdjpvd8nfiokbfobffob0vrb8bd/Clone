@@ -9,10 +9,10 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "24621592"))
+API_HASH = getenv("API_HASH", "f8316a8865477f009ab53b7126eb52c3")
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "7251014091:AAEyZqTsES7OzF1RzwrQbWd0oVQuNsidwaQ")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","legend_mickey")
 # --------------------------------------------------------
@@ -26,7 +26,7 @@ ASSUSERNAME = getenv("ASSUSERNAME" , "alishaxd")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://mainhoonnadil:DilSagar@dilsagar.utaqo.mongodb.net/?retryWrites=true&w=majority&appName=DilSagar")
 API_KEY = getenv("API_KEY")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -36,10 +36,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002046320443))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002010769961))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 7520092354))
+OWNER_ID = int(getenv("OWNER_ID", 8130531095))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 # config.py
@@ -54,7 +54,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/auntyxd12/XXSHEHZADIXX",
+    "https://github.com/ifgovtjoftibcdjpvd8nfiokbfobffob0vrb8bd/Clone",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -68,12 +68,12 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/The_Incricible")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/zoyu_support")
-SOURCE = getenv("SOURCE", "https://t.me/zoyu_Support")
-CHAT = getenv("CHAT", "https://t.me/the_incricible")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/YASH_ABOUT_XD_lll")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TEAM_BADNAM_BOTS")
+SOURCE = getenv("SOURCE", "https://t.me/Sonali_music_bot")
+CHAT = getenv("CHAT", "https://t.me/TEAM_BADNAM_BOTS")
 # ------------------------------------------------------------------------------
-# -------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------
 
 
 
@@ -117,7 +117,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", "BQF3shgAwWP_ZRVQ9LvmKGSqc2F6txg6KwQPvz1YE1e8JHO12j6z2m7krA6TmmJgmvpnbqisdlS4yII8J7NcIU23RWoJM1CcWM_If2qiJqWBhB7nijSo7jirOB0QcXzxybVmLCcJOy6AmSI-3z7bF81yBJmOnph539PPK-W2vtlP3QoO1hoI5E0uGANIJWWNaPdjniJ9gIUY4nBnZwuBwtpSIVqreFmeetv7JIkiKuKM3YA6DDy8IDKchoY93qoY4ERHXkGnAhukt8-KqaBb20Cm5F9e4q2ugqDwzxF6djDfiyGakv3m8dapM5x9cuB4Ks2J5zS9P_NdrZVS6HLKP28aczC3TwAAAAHRuNNDAA")
 STRING2 = getenv("STRING_SESSION2", None)
 BANNED_USERS = filters.user()
 adminlist = {}
